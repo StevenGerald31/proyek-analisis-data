@@ -4,15 +4,15 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load datasets
-customers = pd.read_csv('../data/customers_dataset.csv')
-geolocation = pd.read_csv('../data/geolocation_dataset.csv')
-order_items = pd.read_csv('../data/order_items_dataset.csv')
-order_payments = pd.read_csv('../data/order_payments_dataset.csv')
-order_reviews = pd.read_csv('../data/order_reviews_dataset.csv')
-orders = pd.read_csv('../data/orders_dataset.csv')
+customers = pd.read_csv('./data/customers_dataset.csv')
+geolocation = pd.read_csv('./data/geolocation_dataset.csv')
+order_items = pd.read_csv('./data/order_items_dataset.csv')
+order_payments = pd.read_csv('./data/order_payments_dataset.csv')
+order_reviews = pd.read_csv('./data/order_reviews_dataset.csv')
+orders = pd.read_csv('./data/orders_dataset.csv')
 product_category_translation = pd.read_csv('../data/product_category_name_translation.csv')
-products = pd.read_csv('../data/products_dataset.csv')
-sellers = pd.read_csv('../data/sellers_dataset.csv')
+products = pd.read_csv('./data/products_dataset.csv')
+sellers = pd.read_csv('./data/sellers_dataset.csv')
 
 # Title of the dashboard
 st.title('E-Commerce Dashboard')
